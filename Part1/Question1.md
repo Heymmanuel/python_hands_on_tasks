@@ -1,1 +1,1 @@
-![Question2.jpg](..%2F..%2F..%2F..%2FDownloads%2FQuestion1.jpg)
+![question1.png](..%2Fimages%2Fquestion1.png)
