@@ -1,8 +1,10 @@
 user_char = input("Enter a character: ")
-print(f'You entered character: {user_char}')
+stringed_output = " '{}' ".format(user_char)
+print(f'You entered character: {stringed_output}')
 
 user_moreChar = input("Enter another character: ")
-print(f'You entered unsigned character: {user_moreChar}')
+stringed2_output = "'{}'".format(user_moreChar)
+print(f'You entered unsigned character: {stringed2_output}')
 
 user_shortValue = (input("Enter a signed short value: "))
 print(f'You entered signed short value: {user_shortValue}')
