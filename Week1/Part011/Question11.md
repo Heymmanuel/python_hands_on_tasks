@@ -1,0 +1,2 @@
+Write another program that prompts for a list of numbers as we did in previous exercises and at the end prints out both the maximum and minimum of the inputted numbers
+![question11.png](..%2Fimages%2Fquestion11.png)

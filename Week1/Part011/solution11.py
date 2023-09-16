@@ -1,21 +1,23 @@
-def max_min(numbers):
-    max_value = max(numbers)
-    min_value = min(numbers)
-    return max_value, min_value
-
-
-input_numbers = []
-while True:
-    user_input = input("Enter a number (or 'done' when you are finished): ")
-    if user_input.lower() == 'done':
-        break
-
+def check_for_float(p_input):
     try:
-        number = float(user_input)
-        input_numbers.append(number)
-    except ValueError:
-        print("Please enter a valid number")
+        val = float(p_input)
+        return val
+    except(ValueError, TypeError):
+        print("Error, please enter numeric input")
+        return False
 
 
-max_val, min_value = max_min(input_numbers)
-print(f'Maximum value: {max_val} and minimum value: {min_value}')
+input_number = []
+while True:
+    p_input = input("Enter a number (or 'done' when you are finished): ")
+    if p_input.lower() == 'done':
+        break
+    num = check_for_float(p_input)
+    input_number.append(num)
+
+
+max_value = max(input_number)
+min_value = min(input_number)
+
+print(f'Maximum number: {max_value}, Minimum number: {min_value}')
+
