@@ -1,0 +1,1 @@
+![question12.png](..%2Fimages%2Fquestion12.png)
