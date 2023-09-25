@@ -15,4 +15,4 @@ elif user_input2 < 750:
 user_input3 = input("Please specify if you have any disabilities? (Yes or No): ")
 if user_input3.lower() != 'no':
     print('Congratulations you have been discounted, your interest rate is now 4%')
-    exit()
+exit()
